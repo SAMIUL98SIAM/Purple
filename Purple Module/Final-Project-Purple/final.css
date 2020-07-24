@@ -1,0 +1,146 @@
+body{
+		background-color:  #262626;
+
+	font-size: 130%;
+	margin:4%;
+}
+header{
+
+	text-shadow: currentColor;
+	background-image: url("fly.jpg");
+
+	padding: 5%;
+	background-size:  100%;
+}
+nav {
+		text-align: center;
+	}
+nav#h1{
+	width: 200px;
+}
+	nav a {
+		background-color: rgba(218,234,213,0.60);
+		color: #000000; 
+		display: inline;
+		padding: 10px;
+		margin: 1%; 
+		width: 200px;
+		text-decoration: none; 
+		
+	}
+h1{
+	padding-top:-41%; 
+	color:#FFFFFF;
+	text-align: center;
+	text-transform: uppercase;
+    font-family: "Trebuchet MS", Helvetica, sans-serif; 
+}
+a{
+	font-weight: bold;
+	font-size: 20px;
+	display:inline-block;
+	width: 150px; 
+	margin:0 auto;
+	color:#000000;
+	margin-top: 5px;
+   text-decoration: none;
+
+}
+a:hover{
+	background: white;
+}
+a:focus{
+		background: #B3B3B3;
+		color: #0006CC;
+}
+.left{
+	background: #808000;
+	width:15%;
+	float: left;;
+	padding: 1% ;
+	display: inline-block;
+	padding-left: 1%;
+
+}
+.left img{
+	text-align: center;
+	border: solid 2px #000000; 
+	width: 80%;
+	margin-left: 5%;
+	margin-right: 10%; 
+	margin-top: 14%;
+	margin-bottom: 40%;
+
+}
+.right{
+	width: 48%;
+	display: inline-block;
+	margin-left: 2%; 
+	padding-left: 2%;
+}
+
+table  ,th, td{
+	border: 1px solid blue;
+}
+table{
+	margin: 0 auto;
+	table-layout: auto;
+	width: 800px;
+	text-align: inherit;
+	font-family: "Times New Roman", sans-serif;
+	font-size: 18px;
+    	line-height: 150%;
+	text-align: center;
+}
+th{
+	border-top-right-radius: 6px;
+	border-top-left-radius: 6px;
+	background: linear-gradient(#d8e4a8,#53650c);
+	color: red;
+}
+td{
+	font-size: 19px;
+	font-weight: bold;
+	color: blue;
+	color: #000001;
+	text-shadow: 15px 15px 15px #767613;
+}
+tr td{
+	background: #ebf8db;
+}
+tr{
+		opacity: .7;
+
+}
+img{transition: 1s}
+h1:hover{
+	color: red;
+}
+img:hover{
+	color: lightblue;
+	transform: scale(1.2);
+}
+tr:hover{
+
+ opacity: 4;
+}
+
+section#p1{
+	font-family: fantasy;
+	border: 2px solid blue;
+	 margin-top: 10px;
+	background: white;
+	 float: right;	 
+	 border-radius: 3%;
+}
+footer{
+	background: red;
+}
+/*a.usa{
+	background: black;
+	border-radius: 6px;
+    transition: 0.5s;
+    transition-property: color,width,background,border-radius;
+    transition-timing-function: linear;
+    transition-duration: .5s;
+}*/
